@@ -14,7 +14,7 @@ Countdown sounds and action bar updates
 
 Silent removal of players when they cross the finish line
 
-Supports multiple players (tested up to ~50, adjust as needed)
+Supports multiple players (By default can handle up to ~50, adjust as needed)
 
 -Requirements
 

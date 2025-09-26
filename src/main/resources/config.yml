@@ -1,0 +1,45 @@
+game-area: # Detection area for eliminations
+  corner1:
+    - 189
+    - 28
+    - -23
+  corner2:
+    - 131
+    - 32
+    - 35
+
+start-line: # Where players will be initialized into the game
+  corner1:
+    - 189
+    - 26
+    - -22
+  corner2:
+    - 131
+    - 30
+    - -30
+
+finish-line: # Where players will be marked as safe and winning
+  corner1:
+    - 189
+    - 0
+    - 37
+  corner2:
+    - 131
+    - 320
+    - 36
+
+barrier: # Barrier that drops on game start
+  corner1:
+    - 189
+    - 64
+    - -23
+  corner2:
+    - 131
+    - 28
+    - -23
+
+# Randomized light intervals (20 ticks = 1 second)
+light-interval-min-ticks: 60   # ~3 seconds
+light-interval-max-ticks: 120  # ~6 seconds
+elimination-delay-ticks: 20    # ~1 second delay for human reaction
+redlight-grace-ticks: 10       # ticks after red before movement counts (20 = 1s)
